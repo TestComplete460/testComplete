@@ -6,6 +6,7 @@
   username = Sys.UserName
   Log.message "Local user is : " + userName
   Log.message "Add"
+    Log.message "Add2"
   
   If p.Exists Then
     Log.Error "The process already exist. Please close all instances of WindowsApp1."
