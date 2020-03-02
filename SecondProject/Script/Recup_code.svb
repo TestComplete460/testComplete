@@ -1,0 +1,10 @@
+﻿Sub TestCheckingComboBox()
+  'Clicks the 'MSTaskListWClass' object.
+  Call Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass.Click(653, 32)
+  'Sets the state of the 'CheckBox2' check box to cbChecked.
+  Aliases.WindowsApp1.Form1.CheckBox2.wState = cbChecked
+  'Checks whether the 'WndCaption' property of the Aliases.WindowsApp1.Form1.Label2 object equals 'Nb d'élements : 3'.
+  Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.Label2, "WndCaption", cmpEqual, "Nb d'élements : 3")
+  'Checks whether the 'WndCaption' property of the Aliases.WindowsApp1.Form1.Label2 object matches '\d'.
+  Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.Label2, "WndCaption", cmpMatches, "\d", False)
+End Sub

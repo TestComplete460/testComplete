@@ -1,0 +1,10 @@
+﻿Sub TestCheckingComboBox()
+  'Runs the "setup" tested application.
+  Call TestedApps.setup.Run(1, True)
+  'Test pour cocher une case sur l'IHM.
+  Call Aliases.WindowsApp1.Form1.CheckedListBox1.SetItemChecked(0, True)
+  'On coche une checkbox pour afficher dans le label le nombre d'élement coché
+  Aliases.WindowsApp1.Form1.CheckBox2.wState = cbChecked
+  'On vérifie dans le label en dessous si la valeur récupérée est good
+  Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.Label2, "WndCaption", cmpMatches, "1", False)
+End Sub

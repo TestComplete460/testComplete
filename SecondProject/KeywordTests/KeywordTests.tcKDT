@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Run_app" key="{B4905C34-7223-4C18-A048-A654BE6A6A9F}" path="Run_app.tcKDTest" />
+		<child name="Close_app" key="{6990E3D6-FE1B-4287-B358-D1E03E9408AE}" path="Close_app.tcKDTest" />
+		<child name="Write_Textbox" key="{ACF7E8F8-E0BB-4A56-9330-7A529512F58A}" path="Write_Textbox.tcKDTest" />
+		<child name="Clear_Textbox" key="{24CDE2BA-5A44-4FA4-B232-B8E3C5F4818B}" path="Clear_Textbox.tcKDTest" />
+		<child name="TestCheckingComboBox" key="{F80F58F3-797C-452C-BE54-D641F869CD38}" path="TestCheckingComboBox.tcKDTest" />
+	</children>
+</Root>

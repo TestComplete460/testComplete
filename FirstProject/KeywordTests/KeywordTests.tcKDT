@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Verify_Button1_fonctionnality" key="{BD52D7F3-6F8B-49AF-82D7-A3AC7312749D}" path="Verify_Button1_fonctionnality.tcKDTest" />
+		<child name="Verify_Button2_func" key="{A93E23A0-19B3-4D6B-A103-50D87CAFA20F}" path="Verify_Button2_func.tcKDTest" />
+	</children>
+</Root>

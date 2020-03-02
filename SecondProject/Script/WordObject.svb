@@ -1,0 +1,11 @@
+﻿Sub Main
+      Set ComObjWrd = Sys.OleObject("Word.Application")
+    ' Creates MS Word
+    ' You can also create MS Word in the following way --
+    ' Set ComWordObj = CreateObject("Word.Application")
+      ComObjWrd.Visible = True
+      ComObjWrd.Documents.Add
+      ComObjWrd.Selection.TypeText "Test d'écriture dans un Word"
+    ' Creates a new document
+End Sub
+

@@ -1,0 +1,17 @@
+﻿Sub Close_app()
+  Dim i
+   i = 1
+  'Closes the 'Form1' window.
+  Call Aliases.WindowsApp1.Form1.Close
+ 
+  do while Sys.Process("WindowsApp1").Exists
+    Log.message "Process closed"
+    Sys.Process("WindowsApp1").Close
+    i = i + 1
+    if i >= 10 Then
+      Log.Warning "Nombre anormalement élevé d'instances de WindowsApp1"
+      exit Do
+    end if
+  loop
+  
+End Sub

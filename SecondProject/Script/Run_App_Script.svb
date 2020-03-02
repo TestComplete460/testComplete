@@ -1,0 +1,27 @@
+﻿Sub Run_app()
+
+  Set  p = Sys.WaitProcess("WindowsApp1")
+  
+  Dim userName
+  username = Sys.UserName
+  Log.message "Local user is : " + userName
+  Log.message "Add"
+  
+  If p.Exists Then
+    Log.Error "The process already exist. Please close all instances of WindowsApp1."
+  Else
+    'Runs the "setup" tested application.
+    Call TestedApps.setup.Run(1, True)
+    'Checks whether the 'wState' property of the Aliases.WindowsApp1.Form1.CheckBox1 object equals 0.
+    Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.CheckBox1, "wState", cmpEqual, 0)
+    'Checks whether the 'wState' property of the Aliases.WindowsApp1.Form1.CheckBox2 object equals 0.
+    Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.CheckBox2, "wState", cmpEqual, 0)
+    'Checks whether the 'WndCaption' property of the Aliases.WindowsApp1.Form1.Label2 object equals 'Nombre d'eléments : '.
+    Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.Label2, "WndCaption", cmpEqual, "Nombre d'eléments : ")
+    'Checks whether the 'wText' property of the Aliases.WindowsApp1.Form1.TextBox1 object equals ''.
+    Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.TextBox1, "wText", cmpEqual, "")
+    'Checks whether the 'wText' property of the Aliases.WindowsApp1.Form1.TextBox2 object equals ''.
+    Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.TextBox2, "wText", cmpEqual, "")
+  End If
+  
+End Sub

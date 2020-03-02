@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A93E23A0-19B3-4D6B-A103-50D87CAFA20F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43889.5048726852" objectName="Aliases.WindowsApp1.Form1.Button1" objectLeft="22" objectTop="106" objectRight="142" objectBottom="130" clickPointX="111" clickPointY="116" imageFileName="tcvi1241267127921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43889.5049074074" objectName="Aliases.WindowsApp1.Form1.Button2" objectLeft="22" objectTop="137" objectRight="142" objectBottom="161" clickPointX="106" clickPointY="155" imageFileName="tcvi1241514027923.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43889.505462963" objectName="Aliases.WindowsApp1.Form1" objectLeft="0" objectTop="0" objectRight="770" objectBottom="506" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1246348427924.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

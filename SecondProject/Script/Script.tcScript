@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Run_App_Script" key="{1CA5B4A4-C716-4D55-94C7-AF980DD0F399}" path="Run_App_Script.svb" />
+		<child name="WordObject" key="{FB47A4E7-3365-4A79-9D3A-5336018A0AC3}" path="WordObject.svb" />
+		<child name="CheckboxList_Test" key="{52C8C873-B0BD-4C6B-A796-C37B78E0F89F}" path="CheckboxList_Test.svb" />
+		<child name="Recup_code" key="{31CB12D6-F6E3-49E8-A89B-ED164424B9D0}" path="Recup_code.svb" />
+		<child name="CloseAppScript" key="{F7E092B5-908E-4470-B9E1-1DBE7D16A9FA}" path="CloseAppScript.svb" />
+	</children>
+</Root>
