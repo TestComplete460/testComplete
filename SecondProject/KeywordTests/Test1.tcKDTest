@@ -11,7 +11,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
-				<Data Description="Runs the &quot;WindowsApp1&quot; tested application." TestedApp="WindowsApp1">
+				<Data Description="Runs the &quot;WindowsApp1&quot; tested application." TestedApp="setup">
 					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
 						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1" />
 						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
