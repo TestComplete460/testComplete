@@ -1,5 +1,6 @@
 ﻿Sub Close_app()
   Dim i
+  
    i = 1
   'Closes the 'Form1' window.
   Call Aliases.WindowsApp1.Form1.Close
@@ -13,5 +14,7 @@
       exit Do
     end if
   loop
+  
+  Call Log.SaveResultsAs("U:\ExportLogUnitaire\", lsHTML, true, 2)
   
 End Sub

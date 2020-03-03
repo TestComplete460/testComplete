@@ -23,4 +23,16 @@
     Call aqObject.CheckProperty(Aliases.WindowsApp1.Form1.TextBox2, "wText", cmpEqual, "")
   End If
   
+  Dim currentDateAndTime, currentTime, currentDate, convertedDate, vbDate
+
+  currentDateAndTime = aqDateTime.Now
+  currentTime = aqDateTime.Time
+  currentDate = aqDateTime.Today
+  convertedDate = aqConvert.DateTimeToStr(currentDateAndTime)
+
+  Log.Message(currentDateAndTime)
+  Log.Message(currentTime)
+  Log.Message(currentDate)
+  Log.Message(convertedDate)
+  Log.Message aqConvert.DateTimeToFormatStr(currentDateAndTime, "%m%d%Y-%S%M%H")
 End Sub

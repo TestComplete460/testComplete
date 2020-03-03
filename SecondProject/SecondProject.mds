@@ -26,7 +26,7 @@
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="Close_app_2" key="{52837DA1-CB4D-449D-BEEF-DCCB560618B5}" group="False" enabled="True" testMoniker="{F7E092B5-908E-4470-B9E1-1DBE7D16A9FA}Close_app" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Close_app_2" key="{52837DA1-CB4D-449D-BEEF-DCCB560618B5}" group="False" enabled="True" testMoniker="{F7E092B5-908E-4470-B9E1-1DBE7D16A9FA}Close_app" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>
