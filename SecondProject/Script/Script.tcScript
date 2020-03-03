@@ -6,6 +6,6 @@
 		<child name="CheckboxList_Test" key="{52C8C873-B0BD-4C6B-A796-C37B78E0F89F}" path="CheckboxList_Test.svb" />
 		<child name="Recup_code" key="{31CB12D6-F6E3-49E8-A89B-ED164424B9D0}" path="Recup_code.svb" />
 		<child name="CloseAppScript" key="{F7E092B5-908E-4470-B9E1-1DBE7D16A9FA}" path="CloseAppScript.svb" />
-		<child name="testbidon" key="{2DD84C99-0A77-4DB5-9A0F-AA313E692CA2}" path="testbidon.svb" />
+		<child name="Testing" key="{0A31E569-3593-4578-B1B3-EF3B0EFB2710}" path="Testing.svb" />
 	</children>
 </Root>

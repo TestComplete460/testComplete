@@ -1,20 +1,25 @@
 ﻿Sub Close_app()
   Dim i
-  
    i = 1
   'Closes the 'Form1' window.
-  Call Aliases.WindowsApp1.Form1.Close
+  'Call Aliases.WindowsApp1.Form1.Close
  
-  do while Sys.Process("WindowsApp1").Exists
+  while Sys.WaitProcess("WindowsApp1",5000).Exists
     Log.message "Process closed"
     Sys.Process("WindowsApp1").Close
-    i = i + 1
-    if i >= 10 Then
-      Log.Warning "Nombre anormalement élevé d'instances de WindowsApp1"
-      exit Do
-    end if
-  loop
+    'i = i + 1
+    'if i >= 10 Then
+     ' Log.Warning "Nombre anormalement élevé d'instances de WindowsApp1"
+     ' exit Do
+    'end if
+  wend
   
-  Call Log.SaveResultsAs("U:\ExportLogUnitaire\", lsHTML, true, 2)
+  
+  Dim currentDateAndTime, path
+  currentDateAndTime = aqDateTime.Now
+  currentDateAndTime = aqConvert.DateTimeToFormatStr(currentDateAndTime, "%d%m%Y-%H%M%S")
+  path = "U:\ExportLogUnitaire_" + currentDateAndTime
+  Log.Message(path)
+  Call Log.SaveResultsAs(path, lsHTML, true, 2)
   
 End Sub

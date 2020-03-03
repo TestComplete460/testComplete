@@ -1,0 +1,8 @@
+﻿Sub testing()
+
+  while Sys.WaitProcess("WindowsApp1",5000).Exists
+    Log.message "Process closed"
+    Sys.Process("WindowsApp1").Close
+  wend
+
+End Sub
