@@ -4,13 +4,13 @@
 	<testData />
 	<data />
 	<children>
-		<child key="{C778115C-1904-4DF3-BD35-70D9DEF8BE88}">
-			<config nodeName="setup" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+		<child key="{6E81189B-28D7-4B11-B52C-088E4C7D838E}">
+			<config nodeName="WindowsApp1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="setup.exe" filePath="%UserProfile%\source\repos\WindowsApp1\WindowsApp1\publish\" parameters="" workFolder="" />
+					<param name="RunAs" parameters="" workFolder="C:\Users\k.dewaele\source\repos\WindowsApp1\WindowsApp1\bin\Release" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\k.dewaele\source\repos\WindowsApp1\WindowsApp1\bin\Release" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\k.dewaele\source\repos\WindowsApp1\WindowsApp1\bin\Release" />
+					<param name="Simple" fileName="WindowsApp1.exe" filePath="C:\Users\k.dewaele\source\repos\WindowsApp1\WindowsApp1\bin\Release\" parameters="" workFolder="C:\Users\k.dewaele\source\repos\WindowsApp1\WindowsApp1\bin\Release" />
 				</runModeParams>
 			</config>
 			<testData />

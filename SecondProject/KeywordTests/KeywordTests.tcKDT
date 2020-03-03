@@ -6,5 +6,6 @@
 		<child name="Write_Textbox" key="{ACF7E8F8-E0BB-4A56-9330-7A529512F58A}" path="Write_Textbox.tcKDTest" />
 		<child name="Clear_Textbox" key="{24CDE2BA-5A44-4FA4-B232-B8E3C5F4818B}" path="Clear_Textbox.tcKDTest" />
 		<child name="TestCheckingComboBox" key="{F80F58F3-797C-452C-BE54-D641F869CD38}" path="TestCheckingComboBox.tcKDTest" />
+		<child name="Test1" key="{C4D22D2F-60FF-4681-AA08-D45D6359CFAD}" path="Test1.tcKDTest" />
 	</children>
 </Root>

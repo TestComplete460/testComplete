@@ -1,0 +1,6 @@
+﻿Sub Test1()
+  'Runs the "WindowsApp1" tested application.
+  Call TestedApps.WindowsApp1.Run(1, True)
+  'Clicks the 'Button3' button.
+  Call Aliases.WindowsApp1.Form1.Button3.ClickButton
+End Sub
